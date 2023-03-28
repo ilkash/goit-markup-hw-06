@@ -703,7 +703,11 @@ ul {
   border-radius: 4px;
   border: 1px solid rgba(142, 143, 153, 1);
   height: 120px;
-  color: rgba(142, 143, 153, 1);
+  font-weight: 400px;
+  font-size: 12px;
+  line-height: 1.2;
+  padding-top: 12px;
+  padding-left: 16px;
 }
 
 .modal-form-group:not(:last-child) {
@@ -741,7 +745,10 @@ ul {
   border-color: #4d5ae5;
   outline: transparent;
 }
-
+.textarea:focus {
+  border-color: #4d5ae5;
+  outline: transparent;
+}
 .checkbox-wrapper {
   display: flex;
 }
@@ -794,6 +801,7 @@ textarea {
   position: absolute;
   left: 119px;
   margin-top: 24px;
+  cursor: pointer;
 }
 .title-form {
   font-family: "Roboto";
