@@ -375,6 +375,8 @@ ul {
   font-weight: 500px;
   font-size: 16px;
   line-height: 1.5;
+  display: flex;
+  align-items: center;
 }
 .button-footer::after {
   display: block;
@@ -386,6 +388,7 @@ ul {
   background-image: url("../images/frame.svg");
   width: 24px;
   height: 24px;
+  margin-left: 16px;
 }
 .input-footer {
   box-sizing: border-box;
@@ -700,6 +703,7 @@ ul {
   border-radius: 4px;
   border: 1px solid rgba(142, 143, 153, 1);
   height: 120px;
+  color: rgba(142, 143, 153, 1);
 }
 
 .modal-form-group:not(:last-child) {
